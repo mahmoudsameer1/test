@@ -1,0 +1,19 @@
+{
+  "name": "new-folder-(2)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:prestaging": "npx cypress run --e2e --config baseUrl=https://center.sagerspace.net",
+    "test:staging": "npx cypress run --e2e --config baseUrl=https://center.sagerdrone.com/login"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.1.0"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
